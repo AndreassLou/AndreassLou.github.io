@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 100%;
+    height: 110px;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: "Lobster Two", sans-serif;
+}
+header a{
+    color: black;
+}
+header ul li{
+    margin: 30px;
+    background-color: rgb(184, 248, 232);
+}
+header img{
+    width: 180px;
+    height: 110px;
+}
+img{
+    width: 150px;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: darkolivegreen;
+    padding: 30px;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Truculenta", sans-serif;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: bisque;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja img{
+    border-radius: 60%;
+
+}
+.caja p{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+     font-size: 13px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
